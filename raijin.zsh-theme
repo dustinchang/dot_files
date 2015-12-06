@@ -1,5 +1,6 @@
 #%{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%}
 
+#Present a notification symbol if any untracked changes
 +vi-git-untracked(){
     if [[ $(git rev-parse --is-inside-work-tree 2> /dev/null) == 'true' ]] && \
         git status --porcelain | grep '??' &> /dev/null ; then
@@ -7,6 +8,7 @@
     fi
 }
 
+#Present a notification symbol if any stashed changes
 function +vi-git-stash() {
     local -a stashes
 
@@ -30,10 +32,10 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked git-stash
 theme_precmd () { vcs_info }
 
 
-
+autoload -U colors && colors
 setopt prompt_subst
-PROMPT='$fg[cyan]%n: $fg[yellow]%~
-➜ ${vcs_info_msg_0_} $reset_color'
+PROMPT='$fg[green]⬢ %F{172}%n %F{042}%~
+❯ ${vcs_info_msg_0_} $reset_color'
 
 autoload -U add-zsh-hook
 add-zsh-hook precmd theme_precmd
