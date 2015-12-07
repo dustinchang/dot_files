@@ -22,14 +22,14 @@ zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' unstagedstr '%F{10}!'   # display this when there are unstaged changes, %u to format
 zstyle ':vcs_info:*' stagedstr '%F{10}+'  # display this when there are staged changes, %c to format
 #zstyle ':vcs_info:*' actionformats '%F{5}%F{5}[%F{2}%b%F{3}|%F{1}%a%c%u%F{5}]%f '
-zstyle ':vcs_info:*' formats '%F{015}on %F{49}%b [%u%c%m%F{49}]'
+zstyle ':vcs_info:*' formats '%F{015}on %F{9} %F{49}%b [%u%c%m%F{49}]'
 zstyle ':vcs_info:git*+set-message:*' hooks git-untracked git-stash
 theme_precmd () { vcs_info }
 
 autoload -U colors && colors
 setopt prompt_subst
 PROMPT='%F{010}⬢ %F{190}%n: %F{29}%~ ${vcs_info_msg_0_}
-%F{10}❯$reset_color'
+%F{10}❯%{$reset_color%}'
 
 autoload -U add-zsh-hook
 add-zsh-hook precmd theme_precmd
