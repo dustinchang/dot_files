@@ -22,7 +22,7 @@ zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' unstagedstr '%F{10}!'   # display this when there are unstaged changes, %u to format
 zstyle ':vcs_info:*' stagedstr '%F{10}+'  # display this when there are staged changes, %c to format
 #zstyle ':vcs_info:*' actionformats '%F{5}%F{5}[%F{2}%b%F{3}|%F{1}%a%c%u%F{5}]%f '
-zstyle ':vcs_info:*' formats '%F{015}on %F{9} %F{49}%b [%u%c%m%F{49}]%f'
+zstyle ':vcs_info:*' formats '%F{015}on %F{9}λ %F{49}%b [%u%c%m%F{49}]%f'
 zstyle ':vcs_info:git*+set-message:*' hooks git-untracked git-stash
 theme_precmd () { vcs_info }
 
