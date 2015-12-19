@@ -27,6 +27,7 @@ NeoBundle 'https://github.com/easymotion/vim-easymotion'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'https://github.com/airblade/vim-gitgutter'
 NeoBundle 'https://github.com/ervandew/supertab'
+NeoBundle 'https://github.com/terryma/vim-multiple-cursors'
 " NeoBundle 'Valloric/YouCompleteMe', {
 "      \ 'build'      : {
 "         \ 'mac'     : './install.py',
