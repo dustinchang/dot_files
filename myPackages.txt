@@ -1,0 +1,27 @@
+Sublime
+	bracket Highlighter
+	color highlighter
+	gitgutter
+	emmet
+	color picker
+	rsub
+	Theme - spark
+
+Sub Snippet
+	<snippet>
+		<content><![CDATA[
+	console.log(${1});${0}
+	]]></content>
+		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+		<tabTrigger>log</tabTrigger>
+		<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<!-- <scope>source.python</scope> -->
+	</snippet>
+
+
+
+Atom
+	sublime-style-column-selection
+	minimap
+	pigments
+	spark-syntax
