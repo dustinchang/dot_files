@@ -5,6 +5,7 @@ Sublime
 	emmet
 	color picker
 	rsub
+	sublime-EasyMotion
 	Theme - spark
 
 Sub Snippet
@@ -19,9 +20,10 @@ Sub Snippet
 	</snippet>
 
 
-
 Atom
 	sublime-style-column-selection
-	minimap
 	pigments
+	emmet
+	remote-atom
+	easy-motion-redux || quick-jump
 	spark-syntax
