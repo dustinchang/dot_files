@@ -28,7 +28,7 @@ theme_precmd () { vcs_info }
 
 autoload -U colors && colors
 setopt prompt_subst
-PROMPT='%F{010}⬢ %F{190}%n: %F{29}%~ ${vcs_info_msg_0_}
+PROMPT='%F{9}%n %F{237}in %F{29}%~ ${vcs_info_msg_0_}
 %F{10}❯%{$reset_color%}'
 
 autoload -U add-zsh-hook
