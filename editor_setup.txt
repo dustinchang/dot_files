@@ -21,9 +21,11 @@ Sub Snippet
 
 
 Atom
-	sublime-style-column-selection
 	pigments
 	emmet
 	remote-atom
 	easy-motion-redux || quick-jump
 	spark-syntax
+Atom Keybindings
+'atom-text-editor':
+	'alt-;': 'easy-motion-redux:letter'
