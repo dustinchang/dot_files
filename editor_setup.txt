@@ -1,4 +1,5 @@
 Sublime
+	Theme - spark
 	bracket Highlighter
 	color highlighter
 	gitgutter
@@ -6,7 +7,14 @@ Sublime
 	color picker
 	rsub
 	sublime-EasyMotion
-	Theme - spark
+
+Keybindings
+	[
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	{ "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} }
+	]
 
 Sub Snippet
 	<snippet>
@@ -21,11 +29,13 @@ Sub Snippet
 
 
 Atom
+	spark-syntax
 	pigments
 	emmet
 	remote-atom
-	easy-motion-redux || quick-jump
-	spark-syntax
+	easy-motion-redux
+	minimap
+
 Atom Keybindings
 'atom-text-editor':
 	'alt-;': 'easy-motion-redux:letter'
