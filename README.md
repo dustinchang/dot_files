@@ -14,3 +14,7 @@ To _import_ into iTerm2, go to _iTerm->Preferences->Colors Tab->Load Presets->Im
 ## Bash
 
 For my .bash_profile, it is partly based on [Catalin Maris](https://github.com/alrra/dotfiles) and [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)'s dotfiles.
+
+## Vim
+
+This repo also contains my Vim setup. I use [neobundle](https://github.com/Shougo/neobundle.vim) as my package manager for it, and then my customizations are mostly at the bottom of the file, besides all my custom plugins added.
