@@ -35,6 +35,7 @@ Atom
 	remote-atom
 	easy-motion-redux
 	minimap
+	split-diff
 
 Atom Keybindings
 'atom-text-editor':

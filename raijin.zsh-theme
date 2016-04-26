@@ -33,3 +33,8 @@ PROMPT='%F{9}%n %F{237}in %F{29}%~ ${vcs_info_msg_0_}
 
 autoload -U add-zsh-hook
 add-zsh-hook precmd theme_precmd
+
+#orange 172 208
+#yellow 190
+#white 015
+#dark grey 237
