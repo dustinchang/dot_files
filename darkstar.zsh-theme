@@ -14,13 +14,7 @@ function check_git_prompt_info() {
   fi
 }
 
-#if [[ "$USER" == "root" ]]; then USERCOLOR="red"; else USERCOLOR="yellow"; fi
-#λ
-#%{$reset_color%}
-#%{$fg_bold[red]%}%n %F{238}in %F{173}%~
-#%F{49}%n
-# %{$fg[black]%}on
-#%{$fg[yellow]%}%~
+#Prompt output, if want a RHS promt use RPROMPT
 PROMPT='%{$fg_bold[red]%}%n%{$reset_color%} %{$fg[black]%}in %F{172}%~ $(check_git_prompt_info)
 %{$reset_color%}${ARROW}%{$reset_color%}'
 
