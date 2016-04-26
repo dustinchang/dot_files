@@ -4,7 +4,11 @@ This repo contians my personal dotfiles.
 
 ## Zsh
 
-For my Zsh setup, I use [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), and iTerm2 for my terminal application. The colors are customized for iTerm2 and can be grabbed from the **_.plist_** files (_Will update later to have those colors in there own separate files for straight importing into iTerm2, your welcome to just grab the colors out of the files yourself though_).
+For my Zsh setup, I use [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), and [iTerm2](https://www.iterm2.com/) for my terminal application.
+
+The colors are customized for iTerm2, and can be added by simply importing [raijin.itermcolors](https://github.com/dustinchang/dot_files/blob/master/zsh_themes/raijin.itermcolors) into iTerm2.
+
+To _import_ into iTerm2, go to _iTerm->Preferences->Colors Tab->Load Presets->Import..._ and then select the **_raijin.itermcolors_** file. Then once imported, just select the _raijin_ color scheme.
 
 
 ## Bash
