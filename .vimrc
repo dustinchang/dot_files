@@ -59,7 +59,8 @@ NeoBundleCheck
 set nu
 syntax enable
 colorscheme molokai
-set backspace=indent,eol,start "To make backspace work like assum    ed
+inoremap ii <ESC>
+set backspace=indent,eol,start "To make backspace work like assumed
 set laststatus=2
 let g:lightline = {
       \ 'active': {

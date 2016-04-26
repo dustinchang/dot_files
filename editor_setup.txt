@@ -29,12 +29,15 @@ Sub Snippet
 
 
 Atom
-	spark-syntax
-	pigments
-	emmet
-	remote-atom
+	autocomplete-paths
 	easy-motion-redux
+	emmet
+	file-icons
 	minimap
+	pigments
+	remote-atom
+	script
+	spark-syntax
 	split-diff
 
 Atom Keybindings
