@@ -15,7 +15,7 @@ function check_git_prompt_info() {
 }
 
 #Prompt output, if want a RHS promt use RPROMPT
-PROMPT='%{$fg_bold[red]%}%n%{$reset_color%} %{$fg[black]%}in %F{172}%~ $(check_git_prompt_info)
+PROMPT='%{$fg_bold[red]%}%n%{$reset_color%} %{$fg[black]%}in %{$fg[magenta]%}%~ $(check_git_prompt_info)
 %{$reset_color%}${ARROW}%{$reset_color%}'
 
 #Format for git_prompt_info()
@@ -42,6 +42,6 @@ ZSH_THEME_GIT_PROMPT_STASHED="%{$fg[blue]%}$%{$reset_color%}"
 #Green : 60, 230, 60 or 80, 255, 80
 #Yellow 237, 255, 0 : 243, 255, 0
 #Blue 0, 150, 130 : 0, 150, 150
-#Magenta
+#Magenta(use as orange) 215, 140, 40 : #Used to get rid of last number color and the changing color when cycling through directories
 #Cyan 45, 255, 180 : 0, 255, 178
 #White
