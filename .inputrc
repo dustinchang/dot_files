@@ -1,0 +1,2 @@
+#For ignoring cases during dir completion in bash
+set completion-ignore-case on
