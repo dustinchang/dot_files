@@ -20,7 +20,11 @@ export PATH="$PATH:/usr/local/Cellar/smlnj-110.77/bin"
 alias ..="cd .."
 alias ....="cd ../.."
 alias ......="cd ../../.."
-alias bpro='sublime ~/.bash_profile'
+alias spro='sublime ~/.bash_profile'
+alias vpro='vim ~/.bash_profile'
+alias szrc='sublime ~/.zshrc'
+alias vzrc='vim ~/.zshrc'
+alias vrc='vim ~/.vimrc'
 alias s='git status'
 alias b='git branch'
 alias a='git add'
@@ -32,13 +36,6 @@ alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO'
 alias mongod="sudo /Applications/mongodb-osx-x86_64-3.0.4/bin/mongod"
 alias mongo="sudo /Applications/mongodb-osx-x86_64-3.0.4/bin/mongo"
-##
-# Your previous /Users/dustin/.bash_profile file was backed up as /Users/dustin/.bash_profile.macports-saved_2015-11-14_at_20:39:08
-##
-
-# MacPorts Installer addition on 2015-11-14_at_20:39:08: adding an appropriate PATH variable for use with MacPorts.
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-# Finished adapting your PATH environment variable for use with MacPorts.
 
 #Inspiration dot files
 # https://github.com/alrra/dotfiles/blob/master/shell/bash_prompt
@@ -241,4 +238,3 @@ main
 
 unset -f enable_color_support
 unset -f set_prompts
-

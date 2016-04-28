@@ -6,6 +6,7 @@ Sublime
 	emmet
 	color picker
 	rsub
+	sftp
 	sublime-EasyMotion
 
 Keybindings
@@ -14,6 +15,8 @@ Keybindings
 	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
 	{ "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
 	{ "keys": ["alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} }
+	{ "keys": ["alt+shift+b"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+	{ "keys": ["alt+shift+f"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} }
 	]
 
 Sub Snippet
