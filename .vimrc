@@ -58,7 +58,8 @@ NeoBundleCheck
 " On load Commands
 set nu
 syntax enable
-colorscheme molokai
+colorscheme gruvbox
+set background=dark "For dark background of gruvbox
 inoremap ii <ESC>
 set backspace=indent,eol,start "To make backspace work like assumed
 set laststatus=2
