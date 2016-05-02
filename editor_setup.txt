@@ -10,6 +10,16 @@ Sublime
 	sublime-EasyMotion
 
 Keybindings
+	#Mac
+	[
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	{ "keys": ["option+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["option+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+	{ "keys": ["option+shift+b"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+	{ "keys": ["option+shift+f"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+	]
+	#Linux
 	[
 	{ "keys": ["ctrl+tab"], "command": "next_view" },
 	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
@@ -45,4 +55,4 @@ Atom
 
 Atom Keybindings
 'atom-text-editor':
-	'alt-;': 'easy-motion-redux:letter'
+	'alt-;': 'easy-motion-redux:letter' #'cmd-; for Mac'
