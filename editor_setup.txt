@@ -53,6 +53,12 @@ Atom
 	spark-syntax
 	split-diff
 
-Atom Keybindings
+Atom Keymappings
 'atom-text-editor':
 	'alt-;': 'easy-motion-redux:letter' #'cmd-; for Mac'
+#For ctrl-tab in order	
+'body':
+  'ctrl-tab ^ctrl': 'unset!'
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-shift-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
