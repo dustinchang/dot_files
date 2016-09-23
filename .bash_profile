@@ -16,6 +16,9 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 #sml
 export PATH="$PATH:/usr/local/Cellar/smlnj-110.77/bin"
 
+#NodeJS (Mac) - need access to dir for commands
+export PATH=$PATH:/usr/local/bin
+
 #alias
 alias ..="cd .."
 alias ....="cd ../.."
