@@ -10,7 +10,7 @@ The colors are customized for iTerm2, and can be added by simply importing [raij
 
 To _import_ into iTerm2, go to _iTerm->Preferences->Profiles->Colors Tab->Load Presets->Import..._ and then select the **_raijin.itermcolors_** file. Then once imported, just select the _raijin_ color scheme.
 
-Finally in your `~/.zshrc`, set the theme to raijin; `ZSH_THEME="raijin"`.
+Finally, after you've installed [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), copy the **_raijin.zsh-theme_** file into `~/.oh-my-zsh/themes`, and then in your `~/.zshrc`, set the theme to raijin; `ZSH_THEME="raijin"`.
 
 Here is a screenshot of my terminal:
 ![screenshot](https://raw.githubusercontent.com/dustinchang/dot_files/master/zsh_themes/zsh_screenshot.png)
