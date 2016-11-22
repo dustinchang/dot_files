@@ -56,9 +56,21 @@ Atom
 Atom Keymappings
 'atom-text-editor':
 	'alt-;': 'easy-motion-redux:letter' #'cmd-; for Mac'
-#For ctrl-tab in order	
+#For ctrl-tab in order
 'body':
   'ctrl-tab ^ctrl': 'unset!'
   'ctrl-tab': 'pane:show-next-item'
   'ctrl-shift-tab ^ctrl': 'unset!'
   'ctrl-shift-tab': 'pane:show-previous-item'
+
+Visual Studio Code Keybindings
+[
+	{ "key": "shift+ctrl+p", "command": "cursorUpSelect", "when": "editorTextFocus" },
+	{ "key": "shift+ctrl+n", "command": "cursorDownSelect", "when": "editorTextFocus" },
+	{ "key": "shift+ctrl+f", "command": "cursorRightSelect", "when": "editorTextFocus" },
+	{ "key": "shift+ctrl+b", "command": "cursorLeftSelect", "when": "editorTextFocus" },
+	{ "key": "alt+f", "command": "cursorWordEndRight", "when": "editorTextFocus" },
+	{ "key": "shift+alt+f", "command": "cursorWordEndRightSelect", "when": "editorTextFocus" },
+	{ "key": "alt+b", "command": "cursorWordStartLeft", "when": "editorTextFocus" },
+	{ "key": "shift+alt+b", "command": "cursorWordStartLeftSelect", "when": "editorTextFocus" }
+]
