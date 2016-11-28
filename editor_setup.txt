@@ -72,5 +72,7 @@ Visual Studio Code Keybindings
 	{ "key": "alt+f", "command": "cursorWordEndRight", "when": "editorTextFocus" },
 	{ "key": "shift+alt+f", "command": "cursorWordEndRightSelect", "when": "editorTextFocus" },
 	{ "key": "alt+b", "command": "cursorWordStartLeft", "when": "editorTextFocus" },
-	{ "key": "shift+alt+b", "command": "cursorWordStartLeftSelect", "when": "editorTextFocus" }
+	{ "key": "shift+alt+b", "command": "cursorWordStartLeftSelect", "when": "editorTextFocus" },
+	{ "key": "shift+ctrl+a", "command": "cursorHomeSelect", "when": "editorTextFocus" },
+  { "key": "shift+ctrl+e", "command": "cursorEndSelect", "when": "editorTextFocus" }
 ]
