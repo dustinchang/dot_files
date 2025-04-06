@@ -74,5 +74,44 @@ Visual Studio Code Keybindings
 	{ "key": "alt+b", "command": "cursorWordStartLeft", "when": "editorTextFocus" },
 	{ "key": "shift+alt+b", "command": "cursorWordStartLeftSelect", "when": "editorTextFocus" },
 	{ "key": "shift+ctrl+a", "command": "cursorHomeSelect", "when": "editorTextFocus" },
-  { "key": "shift+ctrl+e", "command": "cursorEndSelect", "when": "editorTextFocus" }
+    { "key": "shift+ctrl+e", "command": "cursorEndSelect", "when": "editorTextFocus" }
+	{ "key": "shift+ctrl+p", "command": "cursorUpSelect", "when": "editorTextFocus" },
+    { "key": "shift+ctrl+n", "command": "cursorDownSelect", "when": "editorTextFocus" },
+    { "key": "shift+ctrl+f", "command": "cursorRightSelect", "when": "editorTextFocus" },
+    { "key": "shift+ctrl+b", "command": "cursorLeftSelect", "when": "editorTextFocus" },
+    { "key": "alt+f", "command": "cursorWordEndRight", "when": "editorTextFocus" },
+    { "key": "shift+alt+f", "command": "cursorWordEndRightSelect", "when": "editorTextFocus" },
+    { "key": "alt+b", "command": "cursorWordStartLeft", "when": "editorTextFocus" },
+    { "key": "shift+alt+b", "command": "cursorWordStartLeftSelect", "when": "editorTextFocus" },
+    { "key": "shift+ctrl+a", "command": "cursorHomeSelect", "when": "editorTextFocus" },
+    { "key": "shift+ctrl+e", "command": "cursorEndSelect", "when": "editorTextFocus" },
+	{ "key": "ctrl+alt+p", "command": "workbench.action.editor.previousChange", "when": "editorTextFocus" },
+	{ "key": "ctrl+alt+n", "command": "workbench.action.editor.nextChange", "when": "editorTextFocus" },
+	{ "key": "alt+s alt+j", "command": "workbench.action.splitEditorDown" },
+    { "key": "alt+s alt+h", "command": "workbench.action.splitEditorLeft" },
+    { "key": "alt+s alt+l", "command": "workbench.action.splitEditorRight" },
+    { "key": "alt+s alt+k", "command": "workbench.action.splitEditorUp" },
+    { "key": "ctrl+shift+alt+p", "command": "editor.action.dirtydiff.previous", "when": "editorTextFocus" },
+	{ "key": "ctrl+shift+alt+n", "command": "editor.action.dirtydiff.next", "when": "editorTextFocus" },
+	{ "key": "alt+cmd+b", "command": "editor.action.goToDeclaration", "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor" },
+	{ "key": "cmd+k cmd+h", "command": "workbench.action.focusLeftGroup" },
+	{ "key": "cmd+k cmd+k", "command": "workbench.action.focusAboveGroup" },
+	{ "key": "cmd+k cmd+j", "command": "workbench.action.focusBelowGroup" },
+	{ "key": "cmd+k cmd+l", "command": "workbench.action.focusRightGroup" },
+
+	{ "key": "shift+alt+n", "command": "editor.action.moveLinesDownAction" },
+    { "key": "shift+alt+p", "command": "editor.action.moveLinesUpAction" },
+
+	// move window to editor group
+	{ "key": "alt+s k", "command": "workbench.action.moveEditorToAboveGroup" },
+    { "key": "alt+s j", "command": "workbench.action.moveEditorToBelowGroup" },
+    { "key": "alt+s h", "command": "workbench.action.moveEditorToLeftGroup" },
+    { "key": "alt+s l", "command": "workbench.action.moveEditorToRightGroup" },
+
+	{ "key": "ctrl+tab", "command": "workbench.action.quickOpenPreviousRecentlyUsedEditor", "when": "!inEditorsPicker" },
+    { "key": "ctrl+shift+tab", "command": "workbench.action.quickOpenLeastRecentlyUsedEditor", "when": "!inEditorsPicker" },
+
+	{ "key": "alt+d", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus && !editorReadonly" },
+	{ "key": "ctrl+alt+e", "command": "workbench.action.focusActiveEditorGroup" },
+	{ "key": "ctrl+alt+t", "command": "workbench.action.terminal.focus" }
 ]
