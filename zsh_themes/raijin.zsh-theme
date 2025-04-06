@@ -1,5 +1,6 @@
 #If a bad command is run and can't execute, then arrow turns red until a successful command is run
-local ARROW="%(?:%{$fg_bold[yellow]%}❯ :%{$fg_bold[red]%}❯ )"
+# local ARROW="%(?:%{$fg_bold[yellow]%}❯ :%{$fg_bold[red]%}❯ )"
+local ARROW="%(?:%{$fg_bold[green]%}❯ :%{$fg_bold[red]%}❯ )"
 #Determine if current directory is within a git managed directory.
 #If so, check if there is any git status's to display, if not, just display the git branch
 function check_git_prompt_info() {
@@ -15,11 +16,12 @@ function check_git_prompt_info() {
 }
 
 #Prompt output, if want a RHS promt use RPROMPT
-PROMPT='%{$fg_bold[cyan]%}%n%{$reset_color%} %{$fg[black]%}in %{$fg[blue]%}%~ $(check_git_prompt_info)
+PROMPT='%{$fg_bold[cyan]%}%n%{$reset_color%} %{$fg[blue]%}%~ $(git_prompt_info) $(git_prompt_status)
 %{$reset_color%}${ARROW}%{$reset_color%}'
 
 #Format for git_prompt_info()
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[black]%}on %{$fg[white]%}λ %{$fg[cyan]%}"
+# ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[black]%}on %{$fg[white]%}λ %{$fg[cyan]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[white]%}λ %{$fg[yellow]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX=""
 ZSH_THEME_GIT_PROMPT_DIRTY=""
 ZSH_THEME_GIT_PROMPT_CLEAN=""
