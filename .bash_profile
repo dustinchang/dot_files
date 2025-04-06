@@ -28,17 +28,28 @@ alias vpro='vim ~/.bash_profile'
 alias szrc='sublime ~/.zshrc'
 alias vzrc='vim ~/.zshrc'
 alias vrc='vim ~/.vimrc'
+alias vszrc="vscode ~/.zshrc"
 alias s='git status'
 alias b='git branch'
 alias a='git add'
 alias c='git commit -m'
 alias pull='git pull'
+alias gslist='git stash list'
+alias gssave='git stash save'
+alias gsapply='git stash apply'
 alias pyserv='python -m SimpleHTTPServer'
 alias sublime="open -a /Applications/Sublime\ Text\ 2.app"
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO'
 alias mongod="sudo /Applications/mongodb-osx-x86_64-3.0.4/bin/mongod"
 alias mongo="sudo /Applications/mongodb-osx-x86_64-3.0.4/bin/mongo"
+# Screen aliases
+# ctrl+a, d to detach
+alias screenList='screen -ls'
+alias dustin="screen -r dustin"
+alias retachScreen="screen -r"
+alias cdustin="screen -S dustin"
+alias createScreen="screen -S"
 
 #Inspiration dot files
 # https://github.com/alrra/dotfiles/blob/master/shell/bash_prompt
