@@ -1,3 +1,70 @@
+Zed Keymap
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-s": null,
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+
+  //Custom settings
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-s": null,
+      "alt-shift-i": "editor::SplitSelectionIntoLines",
+      "alt-shift-f": "editor::SelectToNextWordEnd",
+      "alt-shift-b": "editor::SelectToPreviousWordStart",
+      "alt-d": "editor::DuplicateLineDown",
+      "alt-shift-p": "editor::MoveLineUp",
+      "alt-shift-n": "editor::MoveLineDown",
+
+      // Switch focus to a diff pane
+      "cmd-k cmd-h": "workspace::ActivatePaneLeft",
+      "cmd-k cmd-j": "workspace::ActivatePaneDown",
+      "cmd-k cmd-k": "workspace::ActivatePaneUp",
+      "cmd-k cmd-l": "workspace::ActivatePaneRight",
+
+      // Move current pane in direction
+      "cmd-k h": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "left" },
+      ],
+      "cmd-k j": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "down" },
+      ],
+      "cmd-k k": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "up" },
+      ],
+      "cmd-k l": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "right" },
+      ],
+    },
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-s": null,
+      // Duplicate current pane in the selected direction
+      "alt-s alt-h": "pane::SplitLeft",
+      "alt-s alt-j": "pane::SplitDown",
+      "alt-s alt-k": "pane::SplitUp",
+      "alt-s alt-l": "pane::SplitRight",
+    },
+  },
+]
+
+
+
 Sublime
 	Theme - spark
 	bracket Highlighter
