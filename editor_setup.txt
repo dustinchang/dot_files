@@ -3,7 +3,7 @@ Zed Keymap
   {
     "context": "Workspace",
     "bindings": {
-      "alt-s": null,
+      "alt-s": null, //Not sure it's really doing anything
     },
   },
   {
@@ -17,7 +17,7 @@ Zed Keymap
   {
     "context": "Editor",
     "bindings": {
-      "alt-s": null,
+      "alt-s": null, //Not sure it's really doing anything
       "alt-shift-i": "editor::SplitSelectionIntoLines",
       "alt-shift-f": "editor::SelectToNextWordEnd",
       "alt-shift-b": "editor::SelectToPreviousWordStart",
@@ -53,7 +53,7 @@ Zed Keymap
   {
     "context": "Pane",
     "bindings": {
-      "alt-s": null,
+      "alt-s": null, //Not sure it's really doing anything
       // Duplicate current pane in the selected direction
       "alt-s alt-h": "pane::SplitLeft",
       "alt-s alt-j": "pane::SplitDown",
