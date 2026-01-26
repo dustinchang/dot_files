@@ -32,19 +32,19 @@ Zed Keymap
       "cmd-k cmd-l": "workspace::ActivatePaneRight",
 
       // Move current pane in direction
-      "cmd-k h": [
+      "alt-s h": [
         "workspace::MoveItemToPaneInDirection",
         { "direction": "left" },
       ],
-      "cmd-k j": [
+      "alt-s j": [
         "workspace::MoveItemToPaneInDirection",
         { "direction": "down" },
       ],
-      "cmd-k k": [
+      "alt-s k": [
         "workspace::MoveItemToPaneInDirection",
         { "direction": "up" },
       ],
-      "cmd-k l": [
+      "alt-s l": [
         "workspace::MoveItemToPaneInDirection",
         { "direction": "right" },
       ],
