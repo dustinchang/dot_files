@@ -61,6 +61,18 @@ Zed Keymap
       "alt-s alt-l": "pane::SplitRight",
     },
   },
+  {
+    "bindings": {
+      "ctrl-alt-e": "editor::ToggleFocus",
+    },
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "ctrl-alt-n": "editor::GoToNextChange",
+      "ctrl-alt-p": "editor::GoToPreviousChange",
+    },
+  },
 ]
 
 
